@@ -2,7 +2,6 @@
 
 In today's competitive landscape, a traditional CV simply isn't enough. **FoliomaticAI** harnesses the power of artificial intelligence to transform your resume into a stunning, personalized portfolio that captures who you truly are.
 
----
 
 ### What Makes FoliomaticAI Different
 
