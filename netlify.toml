@@ -1,0 +1,15 @@
+# Netlify configuration created for FoliomaticAI
+[build]
+  # Use the npm script defined in package.json
+  command = "npm run build"
+  # Vite's outDir is configured to 'build' in vite.config.ts
+  publish = "build"
+
+  # If you use Netlify Functions, set the functions directory here. Not required for this repo by default.
+  # functions = "functions"
+
+[[redirects]]
+  # Single Page App fallback: serve index.html for all routes (200), so client-side routing works
+  from = "/*"
+  to = "/index.html"
+  status = 200
